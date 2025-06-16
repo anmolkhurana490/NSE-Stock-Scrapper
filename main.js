@@ -99,3 +99,6 @@ nodeCron.schedule('0 0 * * *', async () => {
     saveToXLSX(extractedData, day);
     day++;
 });
+
+// const extractedData = await Promise.all(companies.map((company) => fetchCompanyData(company)));
+// saveToXLSX(extractedData, day);
